@@ -67,7 +67,7 @@ settings().Physics.ThrottleAdjustTime = math.huge
 workspace.InterpolationThrottling = "Disabled"
 
 if Global.Optimizer then
-	print'no'
+	
 end
 if Global.TorsoFling then 
 	if RigType == Enum.HumanoidRigType.R15 then 
