@@ -1,7 +1,9 @@
+-- THIS IS A HEAVILY MODIFIED VERSION OF PRODUCTIONS REANIMATE
+-- I HELPED HIM BUT I 
 -- https://discord.gg/8EZcyvtDcq // ProductionTakeOne#3330 & nul#3174
 if not game:IsLoaded() then game.Loaded:Wait() end
 
-if workspace:FindFirstChild("ExProReanimate") then 
+if workspace:FindFirstChild("non") then 
 	error("Already Reanimated?") 
 end
 
@@ -180,7 +182,7 @@ else
 end
 
 wait()
-Character.Name = "ExProReanimate"
+Character.Name = "non" -- The reason I changed this to non is because I wanted compatibility for 
 
 OriginalRig.Parent = Character
 Player.Character = Character
