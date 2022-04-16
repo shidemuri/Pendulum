@@ -1,5 +1,6 @@
 -- THIS IS A HEAVILY MODIFIED VERSION OF PRODUCTIONS REANIMATE
--- I HELPED HIM BUT I 
+-- I HELPED HIM BUT I DONT UPDATE IT ANYMORE SO HE JUST IMPROVES IT FOR ME AND HIS USERS!
+-- YOU MAY DM HIM IF YOU THINK OTHERWISE!
 -- https://discord.gg/8EZcyvtDcq // ProductionTakeOne#3330 & nul#3174
 if not game:IsLoaded() then game.Loaded:Wait() end
 
@@ -66,7 +67,7 @@ settings().Physics.ThrottleAdjustTime = math.huge
 workspace.InterpolationThrottling = "Disabled"
 
 if Global.Optimizer then
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/L8X/GameOptimizer/main/src.lua", true))()
+	print'no'
 end
 if Global.TorsoFling then 
 	if RigType == Enum.HumanoidRigType.R15 then 
