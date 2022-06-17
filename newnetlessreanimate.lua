@@ -124,6 +124,9 @@ if not event then
 end
 
 local Velocity = Vector3.new(Global.Velocity, Global.Velocity, Global.Velocity)
+if not getgenv().ExtremeNetless then
+	Velocity = Vector3.new(20,0,0)	
+end
 local wait = function(Time)
 	event:Wait()
 end
